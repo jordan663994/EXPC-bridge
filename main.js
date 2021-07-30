@@ -4,8 +4,7 @@ const maticPOSClient = new MaticPOSClient({
   network: "mainnet",
   version: "v1",
   parentProvider: "http://127.0.0.1:8545",
-  //change this to the expanse mainnet
-  maticProvider: "https://rpc-mainnet.matic.network"
+  maticProvider: "https://node.expanse.tech"
 });
 
 
